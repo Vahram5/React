@@ -3,7 +3,9 @@ export const categories = [
       name: "Dresses",
       subCategories: ["man", "women", "baby"]
     },
-    {name: "Shirt"},
+    {name: "Shirt",
+      subCategories: ["Ho", "Arm", "t"]
+    },
     {name: "Jeans"},
     {name: "Swimwear"},
     {name: "Swimwear"},
@@ -13,3 +15,8 @@ export const categories = [
     {name: "Jackets"},
     {name: "Shoes"},
   ]
+
+export const PagesArr = [
+  {name: "Shoping Cart"},
+  {name: "Checkout"},
+]

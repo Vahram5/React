@@ -1,6 +1,6 @@
-import logo from "./img/logo.png"
+import logo from "../img/logo.png"
 import { useSelector, useDispatch } from 'react-redux';
-import { editSearchInput, SelectSearchValue } from "./headerSlice/headerSlice"
+import { editSearchInput, SelectSearchValue } from "../headerSlice/headerSlice"
 
 export const SecondLine = () => {
     const searchValue = useSelector(SelectSearchValue)

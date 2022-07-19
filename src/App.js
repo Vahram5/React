@@ -1,17 +1,10 @@
 import React from 'react';
 // import { useDispatch } from 'react-redux';
 import './css/App.css';
-import Header from './features/header/header';
+import Header from './features/header/headerSlice/header.js';
 
 
 function App() {
-
-
-  // const categories = useSelector((state) => {
-  //   return state
-  // })
-
-    // console.log(categories)
 
     return (
         <div className="App">
