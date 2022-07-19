@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"react"},
+{"type":"table","name":"reacttable","database":"react","data":
+[
+{"id":"1","product_name":"Phone","price":"2000","rating":"5"},
+{"id":"2","product_name":"Airpods","price":"150","rating":"5"}
+]
+}
+]

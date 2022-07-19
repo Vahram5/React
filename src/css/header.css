@@ -1,0 +1,248 @@
+header{
+	width: 100%;
+	/* padding: 0 10px; */
+}
+.firstPart{
+	width: 100%;
+	background: rgb(189, 189, 189);
+	display: flex;
+	padding: 6px 50px;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.firstLeftPart{
+	/* background-color: red; */
+	width: 210px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.firstLeftPart span:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.firstRightPart{
+	width: 260px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.firstRightPart a{
+	color: black;
+	text-decoration: solid!important;
+	/* border: 1px solid; */
+	padding: 3px;
+}
+.firstRightPart a:hover{
+	background-color: gray;
+}
+.firstRightPart select:hover{
+	cursor: pointer;
+	background-color: #fff;
+}
+select{
+	background: transparent;
+}
+.secondPart{
+	padding: 0 50px;
+	display: flex;
+	padding: 0px 50px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.logoDiv{
+
+}
+.searchForm{
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.searchInput{
+	/* margin: 0; */
+	height: 25px;
+	border-radius: 10px;
+	width: 220px;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 60px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 0px solid #000000;
+	/* border: 1px  solid; */
+}
+.searchButton{
+	/* border-radius: 10px; */
+	border: 1px solid;
+	height: 25px;
+	border-top-left-radius: 60px;
+	border-bottom-left-radius: 60px;
+	width: 25px;
+}
+.searchButton:hover{
+	cursor: pointer;
+	background-color: gray;
+}
+.secondPartThirdDiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.thirdPart{
+	width: 100%;
+	height: 50px;
+	background-color: #3D464D;
+	padding: 0px 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.thirdPartLeftPart{
+	position: relative;
+	width: 44%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.categoriesButton{
+	height: 100%;
+	padding: 0px 10px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+	border: none;
+	background-color: #FFD333;
+    justify-content: space-between;
+    align-items: center;
+}
+.categoriesButton:hover{
+	cursor: pointer;
+	background-color: #FFC906;
+}
+.categoriesMenu{
+	width: 25px;
+}
+.categoriesButtonBringCenter{
+	width: 65%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.leftArrow{
+	font-size: 21px;
+}
+.ThirdPartMenu{
+	width: 55%;
+	height: 100%;
+	/* background-color: white; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.font20px{
+	font-size: 20px;
+}
+.PagesButton{
+	border: none;
+	background-color: transparent;
+	font-size: 15px;
+	width: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.ThirdPartMenu > *{
+	color: white;
+	text-decoration: none;
+
+}
+.ThirdPartMenu > *:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.ThirdLineRightPart{
+	width: 8%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.favoriteIcon{
+	color: yellow;
+	font-size: 23px;
+}
+.cartFavoriteDiv{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.favText{
+	font-size: 23px;
+	color: wheat;
+}
+.favoriteIcon::after{
+	content: " ";
+}
+.subMenu{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 260px;
+	/* height: 50px; */
+	background: #DEDEDE;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+}
+.subMenuItem{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	color: rgb(59, 59, 59);
+	border-bottom: 1px solid  rgb(0, 0, 0);
+	padding: 5px;
+}
+.subMenuItem:hover {
+	color: black;
+	cursor: pointer;
+}
+.subMenuDiv{
+    width: 150px;
+    position: absolute;
+    border-top: 1px solid;
+    top: -1px;
+    background-color: #a5a5a5;
+    right: -150px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.subSubMenuItem{
+	border-bottom: 1px solid;
+	padding: 5px;
+}
+.openSubMenu{
+	width: 30px;
+	text-align: center;
+	margin-left: 10px;
+	background-color: #FFE68B;
+}
+.openSubMenu:hover{
+	cursor: pointer;
+}
+.subSubMenuItem:hover{
+	cursor: pointer;
+	background-color: #FFD333;
+}
