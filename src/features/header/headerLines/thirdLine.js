@@ -4,6 +4,8 @@ import more from "../img/menu.png"
 import { SelectCart } from "../cartSlice";
 import { SubMenu } from '../SubMenuSlice/submenu';
 import { Pages } from '../PagesSub';
+import "../../../css/thirdline.css"
+
 
 export const ThirdPart = () => {
     const favorite = useSelector(SelectFavorite)

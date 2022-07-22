@@ -10,7 +10,7 @@ export const Pages = () => {
             <div className="PagesDropdown">
                 {PagesArr.map((item, index) => {
                     return (
-                        <div className="PagesDropdownItem">{item.name}</div>
+                        <div key={index} className="PagesDropdownItem">{item.name}</div>
                     )
                 })}
             </div>

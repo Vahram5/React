@@ -1,0 +1,47 @@
+header{
+	width: 100%;
+	/* padding: 0 10px; */
+}
+.firstPart{
+	width: 100%;
+	background: rgb(189, 189, 189);
+	display: flex;
+	padding: 6px 50px;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.firstLeftPart{
+	/* background-color: red; */
+	width: 210px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.firstLeftPart span:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.firstRightPart{
+	width: 260px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.firstRightPart a{
+	color: black;
+	text-decoration: solid!important;
+	/* border: 1px solid; */
+	padding: 3px;
+}
+.firstRightPart a:hover{
+	background-color: gray;
+}
+.firstRightPart select:hover{
+	cursor: pointer;
+	background-color: #fff;
+}
+select{
+	background: transparent;
+}

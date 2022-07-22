@@ -1,3 +1,4 @@
+import "../../../css/secondline.css"
 import logo from "../img/logo.png"
 import { useSelector, useDispatch } from 'react-redux';
 import { editSearchInput, SelectSearchValue } from "../headerSlice/headerSlice"

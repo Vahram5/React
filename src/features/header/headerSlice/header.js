@@ -1,9 +1,6 @@
-import "../../../css/header.css"
 import { FirstLine } from "../headerLines/firstLine";
 import { SecondLine } from "../headerLines/secondLine";
 import { ThirdPart } from "../headerLines/thirdLine";
-
-
 
 const Header = () => {
 
@@ -13,7 +10,6 @@ const Header = () => {
                 <FirstLine />
                 <SecondLine />
                 <ThirdPart />
-
             </header>
         </>
     )

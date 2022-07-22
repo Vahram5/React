@@ -1,3 +1,4 @@
+import "../../../css/firstline.css"
 export const FirstLine = () => {
     return (
         <div className="firstPart">
