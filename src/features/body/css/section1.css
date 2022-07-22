@@ -1,0 +1,29 @@
+.section1{
+    width: 100%;
+    padding: 0 50px;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftPart{
+    width: 64%;
+    height: 100%;
+    border: 1px solid black;
+}
+.rightPart{
+    width: 34%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+.rightPartChildren{
+    width: 100%;
+    height: 47%;
+    border: 1px solid black;
+
+}

@@ -12,5 +12,4 @@ export const store = createStore(combineReducers({
   searchValue: "",
   favorites: [],
   cart: [],
-  
 });
