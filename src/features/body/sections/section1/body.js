@@ -1,4 +1,4 @@
-import { Section1 } from "./sections/section1"
+import { Section1 } from "./section1"
 
 export const Body = ({}) => {
 

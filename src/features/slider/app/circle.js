@@ -7,7 +7,7 @@ export const Circle = ({number, setValue}) => {
         <>
            {arr.map((item) => {
                 if(number === parseInt(item.key) && number === 0){
-                    return (<button key={0} onClick={()=>{setValue(0)}} className="black circle" id="i1"></button>)
+                    return (<button key={0} onClick={()=>{setValue(0); console.log(0)}} className="black circle" id="i1"></button>)
                 } else if(number === parseInt(item.key) && number === 1){
                     return (<button key={1} onClick={()=>{setValue(1)}} className="black circle" id="i2"></button>)
                 }else if(number === parseInt(item.key) && number === 2){

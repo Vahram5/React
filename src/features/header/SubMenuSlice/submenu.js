@@ -1,4 +1,4 @@
-import { categories } from "../variables/variables"
+import { categories } from "../../../variables/variables"
 export const SubMenu = () => {
 
     return (

@@ -1,4 +1,4 @@
-import { PagesArr } from "./variables/variables"
+import { PagesArr } from "../../variables/variables"
 
 export const Pages = () => {
 
